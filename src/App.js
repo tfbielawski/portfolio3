@@ -1,9 +1,10 @@
+import Navbar from "./components/Navbar";
 
 
 function App() {
   return (
-    <div>
-     yoyo
+    <div className="text-2xl font-bold">
+      <Navbar />
     </div>
   );
 }
