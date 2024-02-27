@@ -13,7 +13,7 @@ const Home = () => {
             <p className='text-[#8892b0] py-4 max-w-[700px]'> `--------` </p>
             <div>
                 <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6fc2b0] hover:border-bg-[#6fc2b0]"> 
-                    View Work 
+                    View Projects
                     <span className="group-hover:rotate-90 duration-300">
                         <HiArrowNarrowRight className="ml-3" />
                     </span>
