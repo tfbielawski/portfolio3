@@ -1,5 +1,7 @@
 import React, {useState} from "react";
-import {FaBars, FaTimes} from "react-icons/fa";
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from "react-icons/fa";
+import {HiOutlineMail} from "react-icons/hi";
+import {BsFillPersonLinesFill} from "react-icons/bs";
 import EGA7 from "../assets/ega7.png";
 
 const Navbar = () => {
@@ -43,9 +45,41 @@ const Navbar = () => {
       </ul>
 
       {/* Social Icons */}
-      <div></div>
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+        <ul>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500" >
+            <a 
+              href=""
+              className="text-xl flex justify-between items-center w-full text-gray-300"
+            > LinkedIn<FaLinkedin size={40}/>
+            </a>                   
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href=""
+            >
+              Github <FaGithub size={40} />
+            </a>
+          </li>
+          <li className="text-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]" >
+            <a 
+              className="flex justify-between items-center w-full text-gray-300"
+              href=""
+            >Resume  <BsFillPersonLinesFill size={40}/>
+            </a>                   
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]" >
+            <a 
+              className="flex justify-between items-center w-full text-gray-300"
+              href=""
+            > Email<HiOutlineMail size={40}/>
+            </a>                   
+          </li>
+        </ul>
+      </div>
     </div>
   )
 }
 
-export default Navbar
+export default Navbar;
