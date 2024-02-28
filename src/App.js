@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Interests from "./components/Interests";
 
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      {/* Add a Personal Interest page: hobbies, family, fun, books */}
+      <Interests />
     </div>
   );
 }
