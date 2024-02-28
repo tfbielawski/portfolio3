@@ -11,16 +11,26 @@ const About = () => {
             </div>
             <div></div>
             <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Tom Bielawski. Please take a look around.</p>
-            </div>
-            <div>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>  
-            </div>
+                <div className='sm:text-right text-4xl font-bold'>
+                    <p>Hi. I'm Tom Bielawski.</p>
+                </div>
+                <div>
+                    <p>
+                        
+                        Marine Corps veteran, and former law enforcement agent 
+                        turned software engineer with 2 years of experience in web 
+                        and mobile app development. 
+
+                        Strong documentation, analytical, and
+                        problem solving skills honed during a career as a
+                        law enforcement special agent and in military service. 
+                        Able to 
+                        learn new languages and frameworks.
+                        <br></br>
+                        <br></br>Ready to get to work!
+                     
+                    </p>  
+                </div>
             </div>
         </div>
     </div>
