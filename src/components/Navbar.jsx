@@ -3,57 +3,53 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin} from "react-icons/fa";
 import {HiOutlineMail} from "react-icons/hi";
 import {BsFillPersonLinesFill} from "react-icons/bs";
 import EGA7 from "../assets/ega7.png";
-import { Link } from 'react-scroll';
+import { Link} from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
   //state to manage the nav bar expanding
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(true);
+
   //Set the state to opposite of current state
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#08192f] text-gray-300">
+    <div className="flex fixed w-full h-[5rem] justify-between items-center px-4 bg-[#08192f] text-gray-300">
       <div>
-        <img src={EGA7} alt="Logo image" style={{ width: '200px', paddingTop: "20px", marginTop: "100px" }}/>
+        <img 
+            className="hidden md:flex"
+            src={EGA7} 
+            alt="Logo image" 
+            style={{ width: "12.5rem", paddingTop: "1.25rem", marginTop: "6.25rem" }}
+          />
       </div>
       {/* md: is a breakpoint for mobile */}
-        {/* Convert to Routes later */}
-        <ul className="hidden md:flex">
-          <li>
-            <Link to="home" smooth={true} duration={500}>Home</Link>
-          </li>
-          <li>
-            <Link to="about" smooth={true} duration={500}>About</Link>
-          </li>
-          <li>
-            <Link to="skills" smooth={true} duration={500}>Skills</Link>
-          </li>
-          <li>
-            <Link to="projects" smooth={true} duration={500}>Projects</Link>
-          </li>
-        </ul>
-
-
+        <div className="hidden md:flex flex-row justify-between ">       
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6fc2b0] hover:border-bg-[#6fc2b0]" ><Link to="/"> Home </Link></button>
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6fc2b0] hover:border-bg-[#6fc2b0]"><Link to="/about"> About Me </Link></button>
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6fc2b0] hover:border-bg-[#6fc2b0]"><Link to="/skills"> Skills </Link></button>
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6fc2b0] hover:border-bg-[#6fc2b0]"><Link to="/projects"> Projects </Link></button>
+        </div>
       {/* Hamburger Menu Component FaBars*/}
       <div onClick={handleClick} className="md:hidden z-10" >
         {/* Conditionally render the 'X' when 'burger menu clicked */}
-        {!nav ? <FaBars /> : <FaTimes />}
+        {nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* Mobile Menu*/}
       {/* Conditionally display the 'burger menu */}
-      <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"}>
+      <ul className={nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"}>
           <li className="py-6 text-4xl">
-            <Link onClick={handleClick} to="home" smooth={true} duration={500}>Home</Link>
+            <Link onClick={handleClick} to="/"> Home </Link>
           </li>
           <li className="py-6 text-4xl">
-            <Link onClick={handleClick} to="about" smooth={true} duration={500}>About</Link>
+            <Link onClick={handleClick} to="about">About</Link>
           </li>
           <li className="py-6 text-4xl">
-            <Link onClick={handleClick} to="skills" smooth={true} duration={500}>Skills</Link>
+            <Link onClick={handleClick} to="skills" >Skills</Link>
           </li>
           <li className="py-6 text-4xl">
-            <Link onClick={handleClick} to="projects" smooth={true} duration={500}>Projects</Link>
+            <Link onClick={handleClick} to="projects" >Projects</Link>
           </li>
       </ul>
 

@@ -15,10 +15,10 @@
 }
 
 .content-div {
-    background-repeat: no-repeat;
+    background-repeat:cover;
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: 180px;
 }
 
 .content-div:hover {
@@ -28,3 +28,4 @@
         hsla(242, 74%, 61%, 0.8)   
     )!important;
 }
+
