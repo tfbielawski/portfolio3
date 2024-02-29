@@ -15,13 +15,13 @@ const Navbar = () => {
 
   return (
     <div className="flex fixed w-full h-[5rem] justify-between items-center px-4 bg-[#08192f] text-gray-300">
-      <div>
         <img 
-            className="hidden md:flex"
+            className="hidden lg:flex max-w-full h-auto"
             src={EGA7} 
             alt="Logo image" 
             style={{ width: "12.5rem", paddingTop: "1.25rem", marginTop: "6.25rem" }}
           />
+      <div >
       </div>
       {/* md: is a breakpoint for mobile */}
         <div className="hidden md:flex flex-row justify-between ">       
