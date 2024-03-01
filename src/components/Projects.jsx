@@ -214,7 +214,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                {/*  */}
+                {/* Investment Planner  */}
             </div>
         </div>
     </div>
