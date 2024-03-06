@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="pt-20  h-screen overflow-auto scrollbar-hide bg-[#0a192f]"> 
         {/* Container */}
-        <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full " >
+        <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full bg-[#0a192f]" >
             <h1 className="text-4xl py-6 sm:text-7xl font-bold text-[#ccd6f6]">Tom Bielawski</h1>
             <h4 className="text-4xl sm:text-4xl font-bold text-[#8892b0]">
                 Software Developer, veteran, former special agent.

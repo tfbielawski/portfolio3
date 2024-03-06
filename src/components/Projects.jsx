@@ -8,8 +8,12 @@ import RTT1 from "../assets/rtt1.png";
 import RTT4 from "../assets/rtt4.jpeg";
 import RR from "../assets/react.png";
 import WX2 from "../assets/wx2.jpeg";
+import PROJ from "../assets/proj1.png";
 
-/* Make this render dynamically like the other portfolio does */
+/* Make this render dynamically like the other portfolio does 
+    https://github.com/theyashpatel/yt-react-one-portfolio/blob/main/src/components/Portfolio.jsx 
+    Add project management app
+*/
 
 const Projects = () => {
   return (
@@ -20,8 +24,8 @@ const Projects = () => {
                 <p className="text-4xl font-bold inline underline decoration-[#6fc2b0] text-gray-300 border-[#6fc2b0]">
                     Projects
                 </p>
-                <p className="py-6"> Check out some of my recent work</p>
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <p className="pt-3"> Check out some of my recent work</p>
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 bg-[#0a192f]">
                 {/* Card Item */}
                 <div 
                     style={{backgroundImage:`url(${NETB3})` }}
@@ -214,7 +218,30 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                {/* Investment Planner  */}
+                {/* Proj Manager */}
+                <div 
+                    style={{backgroundImage:`url(${PROJ})` }}
+                    className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div" >
+                    
+                    {/* Hover */}
+                    <div className="opacity-0 group-hover:opacity-100">
+                        <span className="text-2xl font bold text-white tracking-wider"></span>
+                        <div className="pt-8 text-center ">                         
+                            <button 
+                                onClick={()=> window.open("https://project-management-henna.vercel.app", "_blank")}
+                                className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                                DEMO
+                            </button>                      
+                            <button
+                                onClick={()=> window.open("https://github.com/tfbielawski/project-management", "_blank")}
+                                className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                                CODE REPO
+                            </button>
+                            <p className="text-base">Project Management App</p>
+                            {/* useref, usestate, modal, portal */}
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
