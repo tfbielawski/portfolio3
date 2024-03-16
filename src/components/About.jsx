@@ -32,8 +32,7 @@ const About = () => {
                         to learn new technologies and languages in which I had no training or experience.
                         <br></br>
                         <br></br>
-                        With my unique background in military and law enforcement combined 
-                        with my software development skills, I'm ready to become a valuable 
+                        With my unique background, I'm ready to become a valuable 
                         addition to a great development team.
                         <br></br>
                         <br></br>
