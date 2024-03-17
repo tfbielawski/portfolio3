@@ -32,14 +32,14 @@ export const ProjectData = [
     },
     {
         id: 3,
-        name: "Step Up For Students Educational Platform",
+        name: "Step Up For Students",
         image: SUFS,
         skills: "Stack: ",
         repo: "https://www.stepupforstudents.org",
         deploy: "https://www.stepupforstudents.org",
-        description: `SUFS is a multi-state education platform for students that connects students and parents with educators, schools, 
-        and funding opportunities. It is a web app using C#/.NET framework with Blazor and Cosmos db.
-        Clicking "launch" will open the SUFS main info website.`
+        description: `Professional project I contributed to at NLP Logix. Multi-state education platform 
+        connecting parents/students with educators, schools, and funding opportunities. C#/.NET framework with Blazor and Cosmos db.
+        I no longer have repo access.`
     },
     {
         id: 4,
@@ -48,10 +48,9 @@ export const ProjectData = [
         skills: "Stack: ",
         repo: "https://www.acstechnologies.com/ministryplatform/tools/pocketplatform/",
         deploy: "https://www.acstechnologies.com/ministryplatform/tools/pocketplatform/",
-        description: `PocketPlatform is a customized mobile app for churches using both Android and iOS using React Native.
-        Some PocketPlatform apps I created on Google Play/iOS App Stores: ChangePoint Alaska Church, Beulah Baptist Church, 
-        St. Thomas More Glendale Parish, Impact Church, and more. Clicking "launch" will open the PocketPlaform 
-        main info website. `,
+        description: `Professional project I contributed to at ACS Tech. React Native mobile app for churches in both Android and iOS.
+        Some apps I created on Google Play/iOS App Stores: ChangePoint Alaska Church, Beulah Baptist Church, 
+        St. Thomas More Glendale Parish, Impact Church, and more. I no longer have repo acess. `,
     },
     {
         id: 5,
@@ -60,7 +59,7 @@ export const ProjectData = [
         skills: "Stack: ",
         repo: "https://github.com/tfbielawski/nasa-apod-2",
         deploy: "https://nasa-apod-2.vercel.app",
-        description: `A beautiful image or video pulled daily from the NASA Api.`,
+        description: `A beautiful image or video pulled daily from the NASA Api using React JS.`,
     },
     {
         id: 6,
@@ -69,7 +68,7 @@ export const ProjectData = [
         skills: "Stack: ",
         repo: "https://github.com/tfbielawski/new-reactdd-vercel",
         deploy: "https://new-reactdd-vercel.vercel.app",
-        description: `Dungeons & Dragons Campaign Helper.`,
+        description: `Dungeons & Dragons Campaign Helper using ReactJS.`,
     },
     {
         id: 7,
