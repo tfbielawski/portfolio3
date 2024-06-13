@@ -10,6 +10,8 @@ import RJS1 from "../assets/rjs1.png";
 import WX1 from "../assets/wx1.png";
 import PROJ from "../assets/proj1.png";
 import MERN from "../assets/mern.png";
+import VAC from "../assets/vacay.png";
+import FOOD from "../assets/food.png";
 
 export const ProjectData = [
     {
@@ -115,9 +117,36 @@ export const ProjectData = [
         deploy: "https://project-management-henna.vercel.app",
         description: `ReactJS proj management app with Tailwind CSS, error modals, prop drilling.`,
     },
+    {
+        id: 12,
+        name: "Destination Chooser",
+        image: VAC,
+        skills: "Stack: ",
+        repo: "https://github.com/tfbielawski/destination-chooser",
+        deploy: "https://destination-chooser-pied.vercel.app",
+        description: `ReactJS, browser functions, local storage`,
+    },
+    {
+        id: 13,
+        name: "React Food App Full Stack",
+        image: FOOD,
+        skills: "Stack: ",
+        repo: "https://github.com/tfbielawski/react-food-app",
+        deploy: "https://react-food-app-rho.vercel.app",
+        description: `ReactJS, NodeJS, Full Stack, Backend running on Render, Frontend on Vercel`,
+    },
     // {
-    //     id: 11,
-    //     name: "Netflix Clone",
+    //     id: 13,
+    //     name: "Quiz app",
+    //     image: NETB3,
+    //     skills: "Stack: ",
+    //     repo: "https://github.com/tfbielawski/netflix-clone",
+    //     deploy: "https://netflix-clone-d1be7.web.app",
+    //     description: `Netflix clone webapp with login, auth, profile page, and current titles using TMDB api.`,
+    // },
+    // {
+    //     id: 14,
+    //     name: ".NET APP",
     //     image: NETB3,
     //     skills: "Stack: ",
     //     repo: "https://github.com/tfbielawski/netflix-clone",
