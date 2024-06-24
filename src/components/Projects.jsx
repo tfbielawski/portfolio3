@@ -1,8 +1,6 @@
 import React from "react";
-import PP2 from "../assets/pp2.png";
-import SUFS from "../assets/sufs.png";
-import TIP from "../assets/tip.png";
 import { ProjectData } from "../helper/ProjectData";
+import TIP from "../assets/tip.png";
 import Tooltip from "./ToolTip";
 
 
@@ -15,7 +13,7 @@ const Projects = () => {
                     <p className="text-4xl font-bold inline underline decoration-[#6fc2b0] text-gray-300 border-[#6fc2b0]">Projects</p>
                 </div>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                {console.log(ProjectData)}
+                {/* {console.log(ProjectData)} */}
                 {ProjectData.map(({ id, image, name, repo, deploy , description}) => (                    
                     <>                    
                         <div

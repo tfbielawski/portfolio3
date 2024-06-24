@@ -28,6 +28,7 @@ const Navbar = () => {
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6fc2b0] hover:border-bg-[#6fc2b0]"><Link to="/about"> About </Link></button>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6fc2b0] hover:border-bg-[#6fc2b0]"><Link to="/skills"> Skills </Link></button>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6fc2b0] hover:border-bg-[#6fc2b0]"><Link to="/projects"> Projects </Link></button>
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6fc2b0] hover:border-bg-[#6fc2b0]"><Link to="/fiction"> My Fiction </Link></button>
         </div>
       {/* Hamburger Menu Component FaBars*/}
       <div onClick={handleClick} className="md:hidden z-10" >
