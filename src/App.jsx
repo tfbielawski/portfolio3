@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Fiction from "./components/Fiction";
+import Training from "./components/Training";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
@@ -20,7 +20,7 @@ function App() {
           <Route path="/About" element={<About />}/>
           <Route path="/projects" element={<Projects />}/>
           <Route path="/skills" element={<Skills />}/>
-          <Route path="/fiction" element={<Fiction />}/>
+          <Route path="/training" element={<Training />}/>
         </Routes>
       </Router>
     </div>
