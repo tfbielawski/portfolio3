@@ -43,14 +43,14 @@ export const TrainingData = [
         skills: "Stack: ",
         description: `placeholder`,
     },
-    {
-        id: 6,
-        url: "placeholder",
-        name: "The Crown of Power",
-        // image: LLARS5,
-        skills: "Stack: ",
-        description: `placeholder`,
-    },
+    // {
+    //     id: 6,
+    //     url: "placeholder",
+    //     name: "The Crown of Power",
+    //     // image: LLARS5,
+    //     skills: "Stack: ",
+    //     description: `placeholder`,
+    // },
    
    
 ]
